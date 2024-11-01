@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Country </title>
+    <link rel="stylesheet" href="./bacend.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header">
+                <div class="search">
+                    <input type="text" placeholder="search">
+                    <button>search</button>
+                </div> 
+                <select>
+                    <option value="Population">Population</option>
+                    <option value="Regions">Regions</option>
+                    <option value="A - Z">A - Z</option>
+                </select>
+            </div>
+            <div class="stats">
+                <p id="countryCount"></p>
+                <p id="totalPopulation"></p>
+            </div>
+            <div id="loading" class="loading hidden">Loading...</div>
+            <div class="flagtar"></div>
+        </div>
+    </header>
+    <script src="./bacend.js"></script>
+</body>
+</html>
